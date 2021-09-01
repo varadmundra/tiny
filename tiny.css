@@ -1,0 +1,263 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers
+ */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #f7dba7;
+}
+
+.header .container{
+    background-color: #faae7b;
+}
+
+ul,li {
+    display: inline;
+    color: #687666;
+
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+li{
+    padding-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+    
+.buttons img{
+
+    width: 25px;
+}
+
+.main .container{
+    background: url(bg.jpeg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.main img{
+    height:80%;
+    border:7px #faae7b solid;
+    margin-top: 130px;
+    margin-left: 25px;
+    
+}
+
+.main .details{
+    font-size: 50px;
+    color: #faae7b;
+    font-weight: 1000;
+}
+
+.head{
+    font-family: 'Abril Fatface';
+    font-size: 30px;
+
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    margin-right: 3%;
+}
+.details{
+    
+    width: 60%;
+}
+
+.more button{
+    border: none;
+    border-radius: 0.6rem;
+    background-color: #faae7b;
+    padding: 2%;
+    height: 50px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    margin-top: 50%;
+    width: 120px;
+}
+
+
+
+
+
+
+
+/*  login*/
+
+
+
+  /* .container{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    text-align: center;
+  } */
+  
+   
+  
+  
+
+.logincontainer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+  .contentbox2{
+    padding:3%;
+    width:20%;
+    background-color: #faae7b;
+    border-radius: 1.6rem;
+}
+
+.contentbox2 label{
+    padding:2%;
+    display: flex;
+    justify-content: center;
+  }
+ 
+input{
+  border-radius: 0.3rem;
+  border: none;
+  height: 15px;
+  margin-bottom: 5%;
+  padding: 1%;
+  width: 60%;
+
+
+}
+
+.contentbox2 input{
+  border-radius: 0.3rem;
+  border: none;
+  height: 20px;
+  margin-bottom: 5%;
+  padding: 1%;
+  width: 100%;
+}
+
+.loginbutton{
+  border: none;
+	padding: 1%;
+	margin: 1% 5%;
+	border-radius: 0.6rem;
+	color: black;
+	background-color: #f7dba7;
+    height: 30px;
+    width: 38%;
+}
+
+
+.loginbutton:hover{
+	transform:translateY(-1px);
+	box-shadow: 0px 2px 8px 3px #3d405b;
+	transition-duration: 0.3s;
+	color: white;
+	cursor:pointer;
+}
+
+.main button:hover{
+	transform:translateY(-1px);
+	box-shadow: 0px 2px 8px 3px #3d405b;
+	transition-duration: 0.3s;
+	color: white;
+	cursor:pointer;
+}
+
+.buttons img:hover{
+	transform:translateY(-1px);
+	box-shadow: 0px 2px 8px 3px #3d405b;
+	transition-duration: 0.3s;
+	color: white;
+	cursor:pointer;
+}
+
+a:hover{
+    transform:translateY(-1px);
+	transition-duration: 0.3s;
+	color: white;
+	cursor:pointer;
+}
+
+.login{
+    border-radius: 0.6rem;
+    border: 3px solid #f7dba7;
+    padding: 5px;
+}
+
+.signup{
+    color:#faae7b ;
+    border-radius: 0.6rem;
+    padding: 5px;
+    background-color: #f7dba7;
+
+}
